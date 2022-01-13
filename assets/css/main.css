@@ -208,7 +208,7 @@ header .infos .links a:last-child:hover {
   justify-content: space-between;
   position: relative;
   background-position-y: bottom;
-  border-radius: 0  100px;
+  border-radius: 0 100px;
 }
 
 .section-two .img {
@@ -216,9 +216,8 @@ header .infos .links a:last-child:hover {
   width: 50%;
 }
 .section-two .img img {
-  position: absolute;
-  top: -60px;
-  left: 80px;
+  position: sticky;
+  width: 100%;
 }
 .section-two .info {
   padding: 140px 0px;
@@ -240,10 +239,10 @@ header .infos .links a:last-child:hover {
   margin-top: 100px;
 }
 .section-final .img {
-	background-image: url("../images/illustration-laptop-desktop.svg");
-	width: 50%;
-	background-position-x: 93%;
-	background-repeat: no-repeat;
+  background-image: url("../images/illustration-laptop-desktop.svg");
+  width: 50%;
+  background-position-x: 93%;
+  background-repeat: no-repeat;
 }
 .section-final .info {
   width: 50%;
@@ -428,6 +427,8 @@ header nav .bottom .links a:last-child {
   .section-two .info {
     width: 80%;
     margin: auto;
+    padding: 0;
+    margin-bottom: 100px;
   }
   .section-two .info h2 {
     text-align: center;
@@ -466,10 +467,17 @@ header nav .bottom .links a:last-child {
     justify-items: center;
     text-align: center;
   }
-  footer .items{
+  footer .items {
     margin-top: 50px;
   }
 
   /* footer footer style end */
 }
 /* media screen style end */
+@media only screen and (max-width: 1000px) {
+  /* .section-final style start */
+  .section-final .info {
+    padding: 200px 50px;
+  }
+  /* .section-final style end */
+}
