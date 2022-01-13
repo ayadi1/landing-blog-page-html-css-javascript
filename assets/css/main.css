@@ -64,7 +64,7 @@ header nav > ul {
   margin-left: 30px;
 }
 header nav > ul > li {
-  color: var(--Grayish-blue-footer-text);
+  color: #fbf5f5;
   font-size: 20px;
 }
 header nav > ul > li > h5::after {
@@ -104,7 +104,7 @@ nav .links {
   margin-left: auto;
 }
 header nav .links a {
-  color: var(--Grayish-blue-footer-text);
+  color: #fbf5f5;
 }
 header nav .links a:last-child {
   background-color: #fff;
@@ -112,6 +112,7 @@ header nav .links a:last-child {
   border-radius: 26px;
   margin-left: 20px;
   color: var(--Light-red-CTA-text);
+  transition: 0.2s cubic-bezier(0.39, 0.58, 0.57, 1);
 }
 header nav .links a:last-child:hover {
   background-color: var(--Very-light-red-CTA-hover-background);
@@ -139,6 +140,7 @@ header .infos .links {
 header .infos .links a {
   padding: 10px 20px;
   border-radius: 24px;
+  transition: 0.2s cubic-bezier(0.39, 0.58, 0.57, 1);
 }
 header .infos .links a:first-child {
   background-color: #fff;
